@@ -15,19 +15,4 @@ def accepts(*types):
 
     return decorator
 
-
-#l = [int, str]
-#a = int
-# b = str
-# # print(isinstance(1, l[0]))
-# print(l[0])
-# c = 1
-# d = 'a'
-# print(type(c) == l[0])
-# print(type(b) == a)
-# print(type(print.__name__))
-# print(type(a))
-# print(type(b))
-# print(type(a) == type)
-# print(10 == type)
-#print(a.__name__)
+#20min

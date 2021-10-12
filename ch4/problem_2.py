@@ -12,5 +12,4 @@ def unique(iterable, key=None):
                 uniqueness.add(key(i))
                 yield i
 
-
 #10min
