@@ -10,4 +10,9 @@ def mean(string_of_numbers):
         Output:
             a float, the mean of the inputted numbers.
         '''
-    pass
+    lst = string_of_numbers.split()
+    lst = list(map(int,lst))
+    if(len(lst) == 0):
+        return 0
+    else:
+        return sum(lst)/len(lst)
