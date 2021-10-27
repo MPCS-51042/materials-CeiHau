@@ -1,2 +1,2 @@
 def to_generator(map_or_filter):
-    pass
+    return (x for x in map_or_filter)
